@@ -1,0 +1,47 @@
+#project {
+  background-color: #161618;
+}
+#Card {
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+#Card:hover {
+  transform: scale(1.05);
+}
+#github-btn {
+  padding: 6px 25px;
+  border: unset;
+  border-radius: 8px;
+  color: #161618;
+  z-index: 1;
+  background: #b4b4b8;
+  border: 1.2px solid #161618;
+  position: relative;
+  font-size: 17px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+  overflow: hidden;
+}
+
+#github-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 8px;
+  background-color: #161618;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+}
+
+#github-btn:hover {
+  color: #e8e8e8;
+}
+
+#github-btn:hover::before {
+  width: 100%;
+}

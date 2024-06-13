@@ -1,0 +1,35 @@
+.NavItems > * {
+  margin-right: 20px;
+}
+#NavH3 {
+  color: #6499e9;
+}
+.NavElement {
+  color: #6499e9;
+}
+#NavBar {
+  background-color: #0c0c0c;
+}
+.NavElement:after {
+  content: "";
+  margin: auto;
+  display: block;
+  height: 2px;
+  width: 0%;
+  background-color: transparent;
+  transition-property: width;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+.NavElement:hover::after {
+  width: 100%;
+  background-color: #6499e9;
+}
+.NavElement:hover {
+  color: #6499e9;
+}
+@media screen and (max-width: 1024px) {
+  .NavElement:hover::after {
+    width: 0;
+  }
+}

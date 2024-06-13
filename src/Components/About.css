@@ -1,0 +1,53 @@
+#about {
+  background-color: #161618;
+}
+#aboutHeading {
+  color: #6499e9;
+}
+#contact-btn {
+  padding: 6px 25px;
+  border: unset;
+  border-radius: 8px;
+  color: #0d6efd;
+  z-index: 1;
+  background: #161618;
+  border: 1px solid #0d6efd;
+  position: relative;
+  font-size: 17px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+  overflow: hidden;
+}
+
+#contact-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 8px;
+  background-color: #0d6efd;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+}
+
+#contact-btn:hover {
+  color: #e8e8e8;
+}
+
+#contact-btn:hover::before {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  #about-content {
+    font-size: 14px;
+  }
+  #about-content-1 {
+    font-size: 12px;
+  }
+}

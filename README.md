@@ -1,2 +1,8 @@
-# jothivasan-portfolio
-Welcome to my responsive portfolio website, showcasing my web development skills! Built with HTML, CSS, JavaScript, JSX, Bootstrap, and React, it features smooth animations and interactive components. Explore my projects, each detailed with descriptions and links. Check out the live demo and source code on GitHub. Your feedback is appreciated!
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
