@@ -20,7 +20,7 @@ const Projects = () => {
             </Col>
           </Row>
           <Row>
-            <Col xs={12} xl={5} id="project-1" className="m-xl-5 ">
+            <Col xs={12} lg={6} id="project-1" className="m-xl-auto ">
               <ProjectCard
                 projectTitle={"iPhone Landing Page"}
                 projectImg={iphoneLandingPage}
@@ -33,7 +33,7 @@ const Projects = () => {
                 }
               />
             </Col>
-            <Col xs={12} xl={5} id="project-2" className="m-xl-5">
+            <Col xs={12} lg={6} id="project-2" className="m-xl-auto">
               <ProjectCard
                 projectTitle={"Weather Forecasting Page"}
                 projectImg={weatherForecastPage}
