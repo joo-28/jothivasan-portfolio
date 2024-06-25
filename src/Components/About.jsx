@@ -12,7 +12,7 @@ const About = () => {
       <section id="about" className="py-lg-3">
         <Container className="mt-lg-5 py-4 py-lg-5">
           <Row>
-            <Col lg={5} className="d-xs-none d-lg-block ">
+            <Col lg={5} className="d-none d-lg-block ">
               <img className="w-100" src={aboutImg} alt="" />
             </Col>
             <Col lg={7} className="text-center text-lg-start">
