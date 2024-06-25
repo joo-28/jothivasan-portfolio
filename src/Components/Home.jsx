@@ -3,7 +3,7 @@ import React from "react";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import MyImg from "../assets/Image/MyImage-home.png";
+import MyImg from "../assets/Image/Temp/HomeImg.png";
 import "./Home.css";
 
 function Home() {
@@ -54,8 +54,11 @@ function Home() {
                 </a>
               </div>
             </Col>
-            <Col className="text-center pt-lg-0 p-2 p-lg-5" xl={5}>
-              <img className="w-75" src={MyImg} alt="" />
+            <Col
+              className="text-center pt-lg-0 p-2 pb-lg-5 p-lg-2 mb-lg-2"
+              xl={5}
+            >
+              <img className="w-100" src={MyImg} alt="" />
             </Col>
           </Row>
         </Container>

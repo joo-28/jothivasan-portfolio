@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import "../Components/About.css";
+import aboutImg from "../assets/Image/Temp/AboutImg.png";
 
 const About = () => {
   return (
@@ -11,7 +12,9 @@ const About = () => {
       <section id="about" className="py-lg-3">
         <Container className="mt-lg-5 py-4 py-lg-5">
           <Row>
-            <Col></Col>
+            <Col lg={5} className="d-sm-none d-lg-block ">
+              <img className="w-100" src={aboutImg} alt="" />
+            </Col>
             <Col lg={7} className="text-center text-lg-start">
               <p id="aboutHeading" className="h1 ">
                 About Me
